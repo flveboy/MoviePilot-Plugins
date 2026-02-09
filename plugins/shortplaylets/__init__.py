@@ -22,10 +22,10 @@ class Directshortplayscraper(_PluginBase, metaclass=Singleton):
     # 插件元数据 (会被 PluginManager 读取)
     plugin_name = "DirectShortPlayScraper"
     plugin_desc = "直接从短剧站点抓取元数据，支持PT/通用双源"
-    plugin_icon = "ShortPlay.png"
+    plugin_icon = "Amule_B.png"
     plugin_color = "#E74C3C"
     plugin_version = "1.2"
-    plugin_author = "YourName"
+    plugin_author = "loong"
     plugin_config_prefix = "direct_short_play_"
     # 插件排序，如果有Web界面会用到
     plugin_order = 15
